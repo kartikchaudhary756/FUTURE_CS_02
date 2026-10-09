@@ -1,1 +1,318 @@
+Delivered-To: kartikchoudhary.25iot@cambridge.edu.in
+Received: by 2002:a05:6022:9056:b0:115:7b7b:f199 with SMTP id 22csp5700184laa; Tue, 6 Oct 2026 10:47:50 -0700 (PDT)
+X-Received: by 2002:a05:6a00:1c86:b0:87d:e8a0:2389 with SMTP id d2e1a72fcca58-891b1487034mr11633b3a.21.1791308870319; Tue, 06 Oct 2026 10:47:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1791308870; cv=none; d=google.com; s=arc-20260327; b=Tu8yDq+F2j/Sl/MopFm112DHu3zc3YstU0dQ91Zz5m0q2DOtpvLiFLn63zlYD1rcRV NcBoaKwh6tY7vIacCkRS5zypHmXUBnhe1DgmNhAUBdQZJ16Fw3Ev6CsDqPPjVwVNAlUe pcMKAm/00GNEXrhYeOmIRxfyWZnhtOlIM1jh2Pd7olD8j2d/6Q4zCNWdhkb6GLuoVN3A YEDcLDElozFKsVKUQvL9F71/7y4B4U2dGZs0TeOY6toPFqPPrxCXhDLvzlPeXiNS0tCx tiWDVLXV21MHIZ946vwcgFFMTkHZsxB5b2fqVIrFhej98NtWvMs+iTzh1Ag7pudlfztH tUKg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327; h=date:message-id:reply-to:errors-to:importance:from:subject:to; bh=xZKWNLtml3heuqUGLLSEV02YD0cBnkXdkTVU74jkFhI=; fh=ePl2ILSMZ2LretsY+cZI9AwRte9eyczyOeFucrYeD2E=; b=h4jl7WAiSt1UWvfT/usd4czPKNYV6w0/oQNkry0DTul2/hdKmTMOrTeZAUak5jdwza iWOB8gFI4P0Ura73R3g96ptHj6fSX7WuKU/aLzqegjVev2hRsrZgM+HTJFOPLfGLTyUc mrtaAYHKEF/8vJpzMYaCKJYE/WYHTHC3sR7Trvp+DMq4rCz8RzUl6mce+0FH2lm2vqSO 5FxQBGTDGwroYinJ2+Fa7KHMWPXyQ0wS+quTnoMko+6FH0+thGduuzxFvAWtDAhBsp8O s9ChcE8E1K37BbCHnsb+g77FuNtJwOa2bHrhqH67Vq7c2FU+ds9wTqDcJK5p9RRefOro mcDg==; dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; spf=none (google.com: security-alert@fhdfc.com does not designate permitted sender hosts) smtp.mailfrom=security-alert@fhdfc.com
+Return-Path: <security-alert@fhdfc.com>
+Received: from emkei.cz (emkei.cz. [114.29.236.247]) by mx.google.com with ESMTPS id d2e1a72fcca58-891893e853bsi862053b3a.58.2026.10.06.10.47.49 for <kartikchoudhary.25iot@cambridge.edu.in> (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256); Tue, 06 Oct 2026 10:47:50 -0700 (PDT)
+Received-SPF: none (google.com: security-alert@fhdfc.com does not designate permitted sender hosts) client-ip=114.29.236.247;
+Authentication-Results: mx.google.com; spf=none (google.com: security-alert@fhdfc.com does not designate permitted sender hosts) smtp.mailfrom=security-alert@fhdfc.com
+Received: by emkei.cz (Postfix, from userid 33) id C25C23BF6; Tue,
+  6 Oct 2026 19:47:48 +0200 (CEST)
+To: kartikchoudhary.25iot@cambridge.edu.in
+Subject: 
+From: "security team" <security-alert@fhdfc.com>
+X-Priority: 3 (Normal)
+Importance: Normal
+Errors-To: security-alert@fhdfc.com
+Reply-To: security-alert@fhdfc.com
+Content-Type: text/plain; charset=utf-8
+Message-Id: <20261006174748.C25C23BF6@emkei.cz>
+Date: Tue,
+  6 Oct 2026 19:47:48 +0200 (CEST)
 
+Subject: ⚠️ Urgent: Your Account Will Be Locked
+
+Email Body:
+
+Dear User,
+
+We noticed suspicious activity on your account.
+To avoid account suspension, please verify your details immediately.
+
+👉 Verify Now: http://secure-account-verify[.]com
+
+Failure to verify within 24 hours will result in permanent account lock.
+
+Regards,
+Security Team   
+
+
+Delivered-To: kartikchaudhary.np@gmail.com
+Received: by 2002:aa7:de0a:0:b0:6ac:c240:22ab with SMTP id h10csp342355edv; Wed, 7 Oct 2026 06:50:22 -0700 (PDT)
+X-Received: by 2002:a05:6808:6f87:b0:4b9:a88b:8884 with SMTP id 5614622812f47-4fc4585e55bmr2288940b6e.26.1791381022696; Wed, 07 Oct 2026 06:50:22 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1791381022; cv=none; d=google.com; s=arc-20260327; b=qBxsQcbwW739yJlrnrk2VZ+MIFrLKtUmioUBRK946/1abPQR2E2bo41tUi+ynG1ysT u4/LTOnoRqpevJTB/etZ3geUy1wFGH7CijRGOYeTeII/mlsApqX2v/htoAJrhpVkp3QH Zw/tbENjTpARmelT53Ora42OnG7UuE5LndPO7Rn+09eSfD68W9tMaMcRPcZjk00sVTom WzUeoA7D0UB+ObEG438EpQSNCri6JwPrRbzxrniGoWWNSKg5+Zg6WYQgL5l3hEOfuCjB ihKyv9x7/N+hkF2VflMIIGc49etrJ97aNMQJYomA5842bOymJtQxsJ7nFMsrd/tbnXw9 /7OA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327; h=to:list-unsubscribe-post:list-unsubscribe:feedback-id:reply-to :subject:message-id:mime-version:from:date:content-transfer-encoding :dkim-signature:dkim-signature; bh=puR1SOqTbteGkHTnadpco4Y7lXDV656cGbjeRozIPRQ=; fh=vGE6kYr7+m1byANXP1eX0FfIimzLb6kvMxVG1M3WhZc=; b=gGD3Xlv3mEVcFK+UZkYwLgwsoHzS0foXHOgzlA3rvVSYbVcIF7iwSE2wzhiqpxjzAv QBhRTEHN3dsBBACPz8gMsvxdUeIdbCCAh75TYnNviWyZHhPG4k3h+Q1N5/Ntz+y/R+fc cNAykx7MXbau8I6qbVZ/2VGeziZiRr+S0zciimfkWPTQVYK7pBNftZHyLIzerhZIoz7H ACH5a++eJ9MBORlXxfBL2CZqMyq4Q3CbZbb+8RmKy0mrkJzelwWlta0h9HawyAaSIiEF P3AFoAc6sTdB6ZbMvKW3mRrxYRvK15EM8bLQOr0amHiEAEXHADpsDAxYDQsBIcQSLLPq wqrg==; dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@mail.internshala.com header.s=PNW header.b=YYSi4u4g; dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=Acyy3n1R; spf=pass (google.com: domain of bounces+48138813-f798-kartikchaudhary.np=gmail.com@pnw.mail.internshala.com designates 159.183.101.179 as permitted sender) smtp.mailfrom="bounces+48138813-f798-kartikchaudhary.np=gmail.com@pnw.mail.internshala.com"; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.internshala.com
+Return-Path: <bounces+48138813-f798-kartikchaudhary.np=gmail.com@pnw.mail.internshala.com>
+Received: from o2666.msg.mail.internshala.com (o2666.msg.mail.internshala.com. [159.183.101.179]) by mx.google.com with ESMTPS id 5614622812f47-4fc4a08d804si3399872b6e.103.2026.10.07.06.50.22 for <kartikchaudhary.np@gmail.com> (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128); Wed, 07 Oct 2026 06:50:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+48138813-f798-kartikchaudhary.np=gmail.com@pnw.mail.internshala.com designates 159.183.101.179 as permitted sender) client-ip=159.183.101.179;
+Authentication-Results: mx.google.com; dkim=pass header.i=@mail.internshala.com header.s=PNW header.b=YYSi4u4g; dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=Acyy3n1R; spf=pass (google.com: domain of bounces+48138813-f798-kartikchaudhary.np=gmail.com@pnw.mail.internshala.com designates 159.183.101.179 as permitted sender) smtp.mailfrom="bounces+48138813-f798-kartikchaudhary.np=gmail.com@pnw.mail.internshala.com"; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.internshala.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.internshala.com; h=content-transfer-encoding:content-type:date:from:mime-version:subject: reply-to:feedback-id:list-unsubscribe:list-unsubscribe-post:to:cc:content-type: date:feedback-id:from:subject:to; s=PNW; t=1791381022; bh=puR1SOqTbteGkHTnadpco4Y7lXDV656cGbjeRozIPRQ=; b=YYSi4u4g+iReyZ4LMAZmyDC5v/uOHxK+OahZV0F2W2AjyGht1Gm8u1OlAl9rVviW5eTf BhQhl952VI99h3LnCeAFNvoN3Kl3B08vzBEGZwynLuOq0/9SBvytPm2kyQtVvh3igeX0Ny f7ZjRgPj7+rdTceBrsaXPalpmR17SliWq5gh6vQAbcIM6CwTe44Yt7ewhL7Itj8mDLMLnX tNjveU+/Q2R+FbmuVnYsl0YmjvWccWWJPd0otfVHCLNXc7T6NjDla29cIV+jRGDkt47j3p KzOVI95p8RvIvdbIwEGIt0grTZpCY9C5di1WoUs6Wsj2Km1Y4CbYJWO4xrrwWHMA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info; h=content-transfer-encoding:content-type:date:from:mime-version:subject: reply-to:feedback-id:list-unsubscribe:list-unsubscribe-post:to:cc:content-type: date:feedback-id:from:subject:to; s=smtpapi; t=1791381022; bh=puR1SOqTbteGkHTnadpco4Y7lXDV656cGbjeRozIPRQ=; b=Acyy3n1R/wwpC3MxK8ZBVztHILCekasNfP7h+dABIGA7XXcm4pxZH7EYF1JYcmrDRlSQ sv7iurLesdP7NS4XG6PuHzIHUEVbT0EEPss0zhRrweu621OuZ/Bbm8itkcia0Jg7HEOcgG VfKPQTpU4u/BiPgzae7bUYn2W0DFXShjA=
+Received: by recvd-d595d5f8b-qxt9z with SMTP id recvd-d595d5f8b-qxt9z-1-6AC62F32-1D 2026-10-07 11:38:26.109251589 +0000 UTC m=+671845.218391618
+Received: from NDgxMzg4MTM (unknown) by geopod-ismtpd-4 (SG) with HTTP id rpIFqperSfCbfmz48oouAQ Wed, 07 Oct 2026 11:38:25.928 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Date: Wed, 07 Oct 2026 13:50:22 +0000 (UTC)
+From: Internshala <student@mail.internshala.com>
+Mime-Version: 1.0
+Message-ID: <rpIFqperSfCbfmz48oouAQ@geopod-ismtpd-4>
+Subject: Update: Your Google AI Plus access is waiting to be claimed | Confirm your 12-month access at no cost
+Reply-To: no-reply-student@internshala.com
+Feedback-ID: =?us-ascii?Q?70J8lzzhY4BBdQQSHCP=5F1OoC2motoCcXpkR7JYUDWbHG5UXS2ZlWpcraQy8OKG?= =?us-ascii?Q?rhIXxIhg=3AVJb4DCZfGukJAHMhvyiuHJoVCBqaVT?= =?us-ascii?Q?YQAyhve1b3qIFi9AiGlG9IC38sFHtJQQe7UxTwV?= =?us-ascii?Q?A=3ADC03=3Amoeemails?=
+List-Unsubscribe: =?us-ascii?Q?=3Chttps=3A=2F=2Flink=2Einternshala=2Ecom=2Fv1=2Femailunsubscribe=3Fqmoe=3DQ6gCzFb?= =?us-ascii?Q?9Iy=2EJJUIa1N=5F8csUK=5Fjh8ZVed4P30jlYb9ZLi0A?= =?us-ascii?Q?pRfgoCfKhiA=5FM5Zoz5or6ImBZmcA-bu=5FbKrh4UY?= =?us-ascii?Q?adDHnLNGQ9Huf7zxJGLj=5FAB3Ah0M8gYw7X4pbjR?= =?us-ascii?Q?OIC6qgTp=2EAkKprcZVakKXQbWQ-bGsUyoaVdi7Q3?= =?us-ascii?Q?1zcwABBlEfCHGcgAEZ8BiyttUKlHT6C8WhY9Aia?= =?us-ascii?Q?cfMSxx5PPXCV5Wlt6wIzOJ3At81jpL4Y0gy6POj?= =?us-ascii?Q?wmXz1Q2ESWp05yAo7tCEXYqgjYnDgv=2Eb2qM1eUk?= =?us-ascii?Q?BmGU9rdqhbOcg-3dyuvYi50eV8UqmxjXetlCZIn?= =?us-ascii?Q?gNWOvk5f4TmCGjNPKoQaNXROHESxo46xyiNm=2EhH?= =?us-ascii?Q?3d9HgWpFwy3XDGc-FeJsMQ7TfaUdWqPMxt4D2WZ?= =?UTF-8?Q?c7N8NcLh639XVvxF6SwYy=3E=2C=0D=0A?= <mailto:unsubscribe-DC03@moengage.co?subject=Unsubscribe | =?us-ascii?Q?Q6gCzFb9Iy=2EJJUIa1N=5F8csUK=5Fjh8ZVed4P30jlYb9ZLi0ApRfgoCfKhiA=5FM5Zo?= =?us-ascii?Q?z5or6ImBZmcA-bu=5FbKrh4UYadDHnLNGQ9Huf7zx?= =?us-ascii?Q?JGLj=5FAB3Ah0M8gYw7X4pbjROIC6qgTp=2EAkKprcZ?= =?us-ascii?Q?VakKXQbWQ-bGsUyoaVdi7Q31zcwABBlEfCHGcgA?= =?us-ascii?Q?EZ8BiyttUKlHT6C8WhY9AiacfMSxx5PPXCV5Wlt?= =?us-ascii?Q?6wIzOJ3At81jpL4Y0gy6POjwmXz1Q2ESWp05yAo?= =?us-ascii?Q?7tCEXYqgjYnDgv=2Eb2qM1eUkBmGU9rdqhbOcg&bo?= =?us-ascii?Q?dy=3DHi!?= I am requesting to be removed from all future marketing emails from your company.>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+x-campaignid: 6ac60ff7654a70c99d00c89d
+X-SG-EID: =?us-ascii?Q?u001=2E3DQCpPzQ7xI1J5aX+HtjcSo1qF9c6nlxWmJ+IC6cAUToOi=2F1dYzZ5gzms?= =?us-ascii?Q?g9giLrCVSyldfNVA3pLDDymbS8M6Y+pCGLhwoOb?= =?us-ascii?Q?TKnTYksXmTU1WFlxvWfALvp2mXS=2F8jCOxp7blQF?= =?us-ascii?Q?FrMiEEWJ1W=2FoRT3ZMCQJz53G0KdPA5xUtvV9Kav?= =?us-ascii?Q?Dbn71CA6Z4LM46MpDluv629O7H7HVw1IweAptEn?= =?us-ascii?Q?vFeruKgCSOqva3SH1z70A9gI8OJ2UeTiMDHHAA0?= =?us-ascii?Q?kCukx0zCqiEUp89bnshG4j4icw=3D=3D?=
+X-SG-ID: =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BtIvWHTx4DgrJn+ypMiWpIQ2fS5WCzhqY+FGJ?= =?us-ascii?Q?SzbHPG2UTouLoZOXDukun6n1nNMDSoxTnwvJh7v?= =?us-ascii?Q?vdARItIsmg2HVGTdu8ytMuP9AhgJCqv4qq58Len?= =?us-ascii?Q?3LBvCebZ4XTlIwzflpPtWN0IkX0rL5tPN5py36b?= =?us-ascii?Q?jNeHMhSX+HHKKdJMznV3A5N9H=2FJ7dJqvVKIpYM+?= =?us-ascii?Q?VfRPK9oQ50u5q2GKAnrOH7sDupnMP4JDWA3bKXu?= =?us-ascii?Q?Akh6B8tzOad4lb7xHlGSGjzygOebpIiYabng9ZH?= =?us-ascii?Q?gIucIS4zOFFVW7jKLTi7SaQd1MASzCVJrC5is7k?= =?us-ascii?Q?f9EGntbklv6qlYvEd6Ibmuq34irJgs9a7jHJFtD?= =?us-ascii?Q?tRdkwg6qoEwoZgZhbStzz8UuNDF31FME366WcSH?= =?us-ascii?Q?xj3g88K9u4wDxc1S=2F3MTYf8X+dB36dnTeK7iYBS?= =?us-ascii?Q?s?=
+To: kartikchaudhary.np@gmail.com
+X-Entity-ID: u001.+jUgc+E7SJVIlsNieVsaGA==
+
+<!DOCTYPE html>
+
+<html><head><title></title><meta charset=3D"utf-8" content=3D"text/html" ht=
+tp-equiv=3D"Content-Type"/><meta content=3D"noindex, nofollow, noarchive" n=
+ame=3D"robots"/><meta content=3D"noindex, nofollow, noarchive" name=3D"goog=
+lebot"/></head><body aria-disabled=3D"false"><div style=3D"display:none">Ex=
+plore Gemini, Notebook, Omni & more at no cost&#8199; &#65279; &#847;&#8199=
+; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65=
+279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &=
+#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&=
+#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199;=
+ &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#652=
+79; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#=
+847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#=
+8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; =
+&#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#6527=
+9; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#8=
+47;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8=
+199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &=
+#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279=
+; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#84=
+7;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#81=
+99; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#=
+65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279;=
+ &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847=
+;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#819=
+9; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#6=
+5279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; =
+&#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;=
+&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199=
+; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65=
+279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &=
+#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&=
+#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;&#8199;=
+ &#65279; &#847;&#8199; &#65279; &#847;&#8199; &#65279; &#847;</div><div st=
+yle=3D"max-width: 640px; margin: auto; text-align: center;
+ font-family: Arial;"> <span style=3D"color:blue;display:none!important;hei=
+ght:0;opacity:0;width:0;"> =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C <=
+/span> <a href=3D"https://link.internshala.com/v1/emailclick?q=3DaLL5.ArBxF=
+6XGQYIOJRDUMAed41InMSKUwWvEHNLhoai7g4vM.4S_nbD-UsRc1HqDW349YW5xXnwxTzYAeWSq=
+l363fH7LyvLceMKC8S4GaR7KnHpD0QJ.n3V6LJXDVWkhAwrrHs.VKw_Yhgm_srZ_kjcRNoTYies=
+_YYNqekiwPWNTVFoxrTJsz_TXCWWW8D2bk_DdZro-7NUkD7iLfQHLQYXJtULSjK4eHdsnexcbPL=
+RK6Q3erhVyjh9xGll5eDX8vYYzETyNiCfEafMpCA-GtS5FnsVxDvB39mumssw0Uz.oOrrxI6eT3=
+NxCQ_3d.uYlb.MMW3yLKVH6Mpx11t8j2LbHrY4d0BWtc4-1NqKbGO.FgdQnoofOrvNeTtNsBaMx=
+Qhgzj.K39JptSIz5A-AzIwlvtTD02Mb5Jd4sk8_W_dPzToaY56JWWen7vI1mUng1kZDg3sAFlH.=
+tLOYbLv1TftsQivhhbjfIJmhnSv7e14qp9KobGmu1x5cUGNJyBvA_Qov2bhuvxQlrUbVQX6MtLb=
+gfnveuCjAxtnoV_RJM_rJp2HWoNUshobekdSuD695t1SOTgfJStmhUmTAWq6pIJ1fholvM7gq35=
+0E_wn0EMhD.3n2FunDi..inR.tWsQCPKIpWfHKwDf9O_iZOIYomIggHpzlCrbaYUef28Q0Xr8xY=
+LPDTCNTLk9Ld4UeVOvRTe5WG3TPIUg7dlAN6.W6OyPuD89a4Z6Xoxe2C3TUVaqtu60YjRjhnqYN=
+AXenrQzQaVXV3lAjOGiwcCb0HEl3jXh1duCgWXf2.ua6GGVAA" style=3D"text-decoration=
+: none;"> <img src=3D"https://internshala-uploads.internshala.com/common/im=
+age/g59hkoveuax.png" style=3D"width: 100%;display:block;"/> </a> <a href=3D=
+"https://link.internshala.com/v1/emailclick?q=3DDa38GZRZ6Wo_Ut5hmmZlxM16oYj=
+UVdmUGAfTGkBJl4UKJ5UiDHXDDWEG-FuX0L1StRld.qtKNzpwoe1oyei.TzkPYsdNh0aFscJUrX=
+6XrMYuq0aoWILMZNOHdibHSAZI6t0adMhEvlTef71hJC8AUxsQBPg7FAP5KubfaeWZ97G0ajyaW=
+tMqzI5mISMIa2fB8M2.vPOk-7NUkD7iLfQHLQYXJtULSjK4eHdsnexcbPLRK6Q3erhVyjh9xGll=
+5eDX8vYYzETyNiCfEafMpCA-GtS5FnsVxDvB39mumssw0Uz.oOrrxI6eT3NxCQ_3d.uYlb.MMW3=
+yLKVH6Mpx11t8j2LbHrY4d0BWtc4-zEmi22DIQPS1MBO3PdEQiu92MDLwsU7qkl05jUO__35dwQ=
+-SYmgyMvpKpdIPtE14buQq6atAuweJg5v0TVU_dei.sodvJwIZPQgOXC5k4KJxDVaaiDEYuKK_e=
+YWnjKioCm5pyE8ZXIDYg4lbD5CziFgOsIycsG61DQ63vAsLvY0MKV1eHgqgnPgewEQ0TBZKalFt=
+Pu8LOD4dUYO7YWRt_dJXWatTBiaLgOTO4wt7ZF9xbBZU6ujeKRk_itKMLeGkBlSQzSUIwTTMXn5=
+ZuQAlyEQX4RC1FjH4g2uaSRh_YqujgPXrZN9.COeNUp2DdkSeMAG1.Vx8qRl8YoEyzvt5zpk0bH=
+jyMeaNHrFxkBKYcXcOP2K_SFt4BYzo0pzeTD0nXDNHJH22.EHdeEFwDbxQCXjRefMsBIKehEa1E=
+LS0NoJ3GdMdo96RQUkUuis3tIRwQLn1A" style=3D"text-decoration: none;"> <img sr=
+c=3D"https://internshala-uploads.internshala.com/common/image/jn7o1f4wu6q.p=
+ng" style=3D"width: 100%;display:block;"/> </a><a href=3D"https://link.inte=
+rnshala.com/v1/emailclick?q=3DlbOhID5WE9mj3sG7Q.Ik8JfKNeGFi2VZz_4EJV9gvgd6u=
+H5uu9UvQQTq-vNUyszS3b_FL.c_V7YjD3C5Wc6NDjN.1Voq0zSC75Jk7nkjhavE.eKm6ByqeHBj=
+12znLt1M8Ogsw2LY3G3fibKfPsIimwE2UqqUa6WP2KHUCkstrKvHNFYgM1cs1blwKlFSBxs9Iu_=
+uQsH8-7NUkD7iLfQHLQYXJtULSjK4eHdsnexcbPLRK6Q3erhVyjh9xGll5eDX8vYYzETyNiCfEa=
+fMpCA-GtS5FnsVxDvB39mumssw0Uz.oOrrxI6eT3NxCQ_3d.uYlb.MMW3yLKVH6Mpx11t8j2LbH=
+rY4d0BWtc4-vxU3TYyIrauy.OsBPB8HY38B1MtzEcTjVJ4UCv7vzk_lJQ-TXJxbNETtcvXMymvX=
+qHfG1xzyrZU_0L6y9iKv4SHiVLg7sI_m_TAWoW8Uqa3ENg33XqqXealuQ_FSySPiZdYzv821fmd=
+rxNChB9cJlcexVSp.FiJpUraaSdQz3I35odL4UXifCqm8fjswWT3hFpwZdx4LLH6LF3HcQMHB17=
+tU8Ou_FCS7h2WYgIsQj2hE_6XvNSEIUx6DfZb.7Xw47PpeowoZvND6nW.NS1ItMabnTZcR1.5FQ=
+0inyRxXkWtOUOiPXDt7GVUiF.AUBnw99Q_n_cNj_n3KUAIjpjhDUOKcIdn2ivQJUI2i4gAJSIVW=
+v6OiICsLUUXPxs2i8H_e0v6S67M7KR8L0ddd_3nuVkjxPIPFDMG94tlgPBTiNvsCwyilouOxEwP=
+IhPJIazIaBzl2g" style=3D"text-decoration: none;"> <img src=3D"https://inter=
+nshala-uploads.internshala.com/common/image/3zj84koo368.png" style=3D"width=
+: 100%;display:block;"/> </a><div style=3D"text-align: center;margin: 0 aut=
+o; padding: 24px 0; width: 320px; min-width: 320px;"><a href=3D"https://lin=
+k.internshala.com/v1/emailclick?q=3D.hx4yHrzrGoVp4_dB8Ai3YvOZYEE9D1JI8Iz8mz=
+VwpDWok3yJan_wYu5-iQ4BluANL4eHyHCTS2j8wiRjuDsQswNK6p_GnEhOeZP8avOwT4zV7Q26J=
+6N1IhS0xZvhII9FHAbIxLZ0VLZ1QW3OT0Z3ErG19BcgNXrHGOvwsi.uUy7WHFbOx5dBSXhp7eJ9=
+3N5gvUKygXw-7NUkD7iLfQHLQYXJtULSjK4eHdsnexcbPLRK6Q3erhVyjh9xGll5eDX8vYYzETy=
+NiCfEafMpCA-GtS5FnsVxDvB39mumssw0Uz.oOrrxI6eT3NxCQ_3d.uYlb.MMW3yLKVH6Mpx11t=
+8j2LbHrY4d0BWtc4-fviG_qDvD4WpXL8dfdJNHNGm8X4Xi89le9c4I5rwYpislw-U1184zqId9v=
+V8U1crYwGrZ3h.Fgdi051Go37loFHzlmnDUGqP0xYufDy_.TkDjTFfWuh8zWfjI8487uDUZ1QtE=
+fGlJc36BZD5BcT8zGZWg6wYac7dxTLzqd7k67ohT8AgEyGvOVbY0GpBzZY.qRXhQ" style=3D"=
+display: inline-block;" target=3D"_blank"> <img src=3D"https://cdn.internsh=
+ala.com/static/images/mail/new/social_icons/playstore.png" style=3D"display=
+: block; height: 24px; width: 24px; margin: 0px 12px;"/> </a><a href=3D"htt=
+ps://link.internshala.com/v1/emailclick?q=3DxW5hPPT48z4ye6z11HF10unMFr6Vb21=
+AUEV3Ipv6mlDaJ69Lk.FiFTGr-.EJIti9MviZgUlHKO3qyP._MdULlnOWQ9ZSj1_wbA_tAaVaDJ=
+1DpbnJiMMeW9IH0WbBITQVOyTmi8jgyr_x1MB_vazVl4RqABXgCVZMo.IDbMwlaKaFwUDLrVunw=
+pj7ZU7ywL_KYHT18Huw-7NUkD7iLfQHLQYXJtULSjK4eHdsnexcbPLRK6Q3erhVyjh9xGll5eDX=
+8vYYzETyNiCfEafMpCA-GtS5FnsVxDvB39mumssw0Uz.oOrrxI6eT3NxCQ_3d.uYlb.MMW3yLKV=
+H6Mpx11t8j2LbHrY4d0BWtc4-ahG0Dy1pSBRDCZaR863a0ldsquDmKmEripJfPc.u9zOhwg-rGL=
+m_v9cUOSVb.wGgo4WtCnI4p63b.DYHECMFxnWzQv94HnNX8Jegzm.ed_ksczXns6AqAnHQfBg4q=
+ZZS8DTdZAKyNQgffhJ" style=3D"display: inline-block;" target=3D"_blank"> <im=
+g src=3D"https://cdn.internshala.com/static/images/mail/new/social_icons/in=
+stagram.png" style=3D"display: block; height: 24px; width: 24px; margin: 0p=
+x 12px;"/> </a><a href=3D"https://link.internshala.com/v1/emailclick?q=3DZe=
+Cu1vlIqwiNAww8dcP7rXe2KF1mp7JUxB6U1o6yXnaNbkAhn4s4FeK_-iUqhBUZLoM8C23vtUZbC=
+_HpA2DHSpm8WcK8GHDA4uE04fiwmdWmtgbNIGHQz53bngLXsWNnR8l3WCqmsCKYrA.cwCenK9Of=
+KAujM27Cek3fdc2hyAv1W7utftqEvyI8nbKfbzu0u.3KDJgc-7NUkD7iLfQHLQYXJtULSjK4eHd=
+snexcbPLRK6Q3erhVyjh9xGll5eDX8vYYzETyNiCfEafMpCA-GtS5FnsVxDvB39mumssw0Uz.oO=
+rrxI6eT3NxCQ_3d.uYlb.MMW3yLKVH6Mpx11t8j2LbHrY4d0BWtc4-4mWlEYRRJUuRupjYzocwW=
+9kphixacriDMI51ZLj0AbXVVQ-RVaq3evcoR1yuJ8D84ZtY_PgXOQdOQ4NqVyqI2M76.gakPB2i=
+8eSt6S.Vci32Dv3WgtKBuY2elccmigIAX381KkQqbZ4IV1Q5woDhgjd" style=3D"display: =
+inline-block;" target=3D"_blank"> <img src=3D"https://cdn.internshala.com/s=
+tatic/images/mail/new/social_icons/facebook.png" style=3D"display: block; h=
+eight: 24px; width: 24px; margin: 0px 12px;"/> </a><a href=3D"https://link.=
+internshala.com/v1/emailclick?q=3DXFFtoKbMfjM9k2YLWfGuh2iByVvuHRXqCxpQvhlQi=
+Tlm.xVhnHXPpEIu-bj1Hti84BLxZ3OvFhXRSqKmWuiTohq2Xean_v2A3SLalrz8Gask7qkugGDT=
+YhR8Z3Y0s28tGKIJV2gMRTO8Kt0kQhuNbDIIJHrTG3AHGLFBlbJOQQq6VInjg6dgag5dPGJ6AZ2=
+frhh2QV_M-7NUkD7iLfQHLQYXJtULSjK4eHdsnexcbPLRK6Q3erhVyjh9xGll5eDX8vYYzETyNi=
+CfEafMpCA-GtS5FnsVxDvB39mumssw0Uz.oOrrxI6eT3NxCQ_3d.uYlb.MMW3yLKVH6Mpx11t8j=
+2LbHrY4d0BWtc4-LA2Y5Vgd_JU0apL7P91jQFewKABhqrcjd2PTLv5D6Y6KGA-R8XQYc.suCjzR=
+CbDYMx6C7mcQUvUkXlLj_dbLyTF8c8QQ2otLCFeQsGyn9LUYzQPhSFw6B4N7tC._AiIxCGR5b_e=
+Md13Ag" style=3D"display: inline-block;" target=3D"_blank"> <img src=3D"htt=
+ps://cdn.internshala.com/static/images/mail/new/social_icons/twitter.png" s=
+tyle=3D"display: block; height: 24px; width: 24px; margin: 0px 12px;"/> </a=
+><a href=3D"https://link.internshala.com/v1/emailclick?q=3D4JsUHghwX8QuZM.d=
+1b4stCxCVIGnpdeKyReN86g_M9wHrMR6QCSOmdRF-Gz2LU8kgxrTcQAmUa9u3TOEbkediLBrGcx=
+y.enQW76V9yHZ7gYLPFERaHko2RxyRqd6geChge_KQQl31A9Y4W4zIRmqkihZQVjIgsX2gLz_y9=
+LexJw12WZrIu3J1vJnQDYiyQ6IjkUcPH8s-7NUkD7iLfQHLQYXJtULSjK4eHdsnexcbPLRK6Q3e=
+rhVyjh9xGll5eDX8vYYzETyNiCfEafMpCA-GtS5FnsVxDvB39mumssw0Uz.oOrrxI6eT3NxCQ_3=
+d.uYlb.MMW3yLKVH6Mpx11t8j2LbHrY4d0BWtc4-_u6gwNlcpRJOoNKu4n5Q_fg1BtxSDXCTNqo=
+l4bTYREcZcw-lCj2s8v7mnZ4B56QJXjpbpRBviKtjCLWHPSuN4.1VSuZ4ETeTroSR89kc.Obvpn=
+GXSJv.gjyxt5lN0WrKk6dCtPesXoOFYvyc3rZ5qzcOYlo2u5yuHCXmw" style=3D"display: =
+inline-block;" target=3D"_blank"> <img src=3D"https://cdn.internshala.com/s=
+tatic/images/mail/new/social_icons/linkedin.png" style=3D"display: block; h=
+eight: 24px; width: 24px; margin: 0px 12px;"/> </a><a href=3D"https://link.=
+internshala.com/v1/emailclick?q=3DUyHK_Z33eHLici2ZJfyDNozQ6qIVJGOC64IJYfNm8=
+qFflDAG2aTX8hxF-7VeOc0t8pD.YGenjkoT9l1.xlQDknRDF7Vb7GJNorv_ev.4Me_z0TGgoLVX=
+frLpnVfkEqq7V7vMjgEZSEk0rHOxCOl5f8SCHdbOgUsJoBVvE4NU2T5O.aRRa9tY5OL1qOnWqTo=
+RfYaPQuo8-7NUkD7iLfQHLQYXJtULSjK4eHdsnexcbPLRK6Q3erhVyjh9xGll5eDX8vYYzETyNi=
+CfEafMpCA-GtS5FnsVxDvB39mumssw0Uz.oOrrxI6eT3NxCQ_3d.uYlb.MMW3yLKVH6Mpx11t8j=
+2LbHrY4d0BWtc4-GsM46lsgYvTF4idC4e2KKWuCmmIxmRI82Ta7Kcs55cGY6w-smXpdHg15Suri=
+Goh97CGd7VnV6bJjYWdjAF83Hu.Yi4bFC1fFMbJx45AUQkGXmxtK9xSUMRniXeRgHYC8SEbgnCu=
+7Swg1DdK4q1nCpig3XIqwLrG6Ao9vGIZt5jBRveIBzyzSAomFICJoES2Pi_2dZh4wlwXHHbohLg=
+ODGdk_BLYs6C9VMe7joLa2EHnrmZ8OtsmK8aGdMJhqimBVHPnF1uW.Fua2vQ" style=3D"disp=
+lay: inline-block;" target=3D"_blank"> <img src=3D"https://internshala-uplo=
+ads.internshala.com/common/image/j0qq7nin3d3.png" style=3D"display: block; =
+height: 22px; width: 22px; margin: 0px 12px;"/></a></div><p style=3D"margin=
+: 0; padding: 0 16px; font-family: Arial; font-size: 13px; font-weight: 400=
+; line-height: 18px; letter-spacing: 0em; text-align: center; color: #666;"=
+>Internshala (Scholiverse Educare Pvt. Ltd.)</p><p style=3D"margin: 0; padd=
+ing: 0 16px 0 16px; font-family: Arial; font-size: 13px; font-weight: 400; =
+line-height: 18px; letter-spacing: 0em; text-align: center; color: #666;">9=
+01A and 901B, Iris Tech Park, Sector - 48, Sohna Road, Gurugram</p><p style=
+=3D"margin: 0; padding: 16px; font-family: Arial; font-size: 13px; font-wei=
+ght: 400; line-height: 18px; letter-spacing: 0em; text-align: center; color=
+: #666;">Not interested right now? Unsubscribe=C2=A0<a href=3D"[UNSUBSCRIBE=
+URL]" style=3D"color: #008BDC; text-decoration: none !important;" target=3D=
+"_blank">here</a> <a href=3D"https://link.internshala.com/v1/emailclick?q=
+=3D87g9ihSTZhjKUkkiJGB6_wvxYAU7jgRSuY8in0OQMWrO0qO9wUbPmeb4-HWVO4YeQGfg0crZ=
+Wf38DXPEFVSmZ_gCXxTBcWtnavdCbQeG2nQV3e3Njb2.ea_XnbyVhn.C289g4LRxa3m2TXXoeLo=
+EXCyXMuhISsfqHp3AD55dZbb0Z5WMUtfjYS8qrBuhCxn0eAWr7_2g-7NUkD7iLfQHLQYXJtULSj=
+K4eHdsnexcbPLRK6Q3erhVyjh9xGll5eDX8vYYzETyNiCfEafMpCA-GtS5FnsVxDvB39mumssw0=
+Uz.oOrrxI6eT3NxCQ_3d.uYlb.MMW3yLKVH6Mpx11t8j2LbHrY4d0BWtc4-Cgyr2jwy.Uk2xypt=
+PgVFjs2FORjiPMKW5TldmNBQlvBsZg-ENh7DHC_nRot0GYT3Q.xw_k6JFQXIb7V.SJcrDPRPQdM=
+BwbS2pugXSXodsBezcAbj69XDxd1zd1byhfaVeK0Sp6ADEeuLA" rel=3D"noopener norefer=
+rer" target=3D"_blank">Privacy Policy</a></p></div><img src=3D"https://u481=
+38813.ct.sendgrid.net/wf/open?upn=3Du001.5aLSdUICCEnt4lheTbv1y1bokWNeFxScp6=
+9hUr6uIhTEWrdgv8TSSAjnWt74YBVrfExidRZyVzQweP1R-2BEQOqPj2ZCaoMHnC555MrFvhwUL=
+-2FKz4UVyvVkZpbFmSfxXeTx4ZnTZBMxSFwvPINZzcGgz-2BVrkjGKPqFg5y7NZFF9QbZMwgl9P=
+cruNwgo5WBdkrhbHgDKQE4R7sGDoycvQiBZcIHbCIX6ouKl6qob260SpVNMIDOx0Qg5s5g6Z-2B=
+ct3vRUxSyEwZyo6s5gZDJ1mqXciglUWIEozYa1810Ak8JmLEfLTsYwoc5VmZUUZx83E-2B7iaUj=
+fkbw3PIYN4tgPaenEuZAznAmokzr17ub0ZdP1trCNCihC7jy4RD-2F0ClmPG3P2cGhiXVfB1GC-=
+2BENR9jZkO2OyO18RvsLiiA5VXqFdJutaOeYPoF6kyauYsTWxhMmTwabISMpIs9JDARIw41KWgL=
+3FXoHHYJJqOdx15cTgAqOAWSD995JG6gpE6di57xfU6DdwLgMUHHIHqTn2x-2FusBSoBpbEZl54=
+uL-2BAApj-2FCGgQdOgdmoozpYkHp-2F4Q-2FWPRMWvZFXdwsiHrYXzG8eRZcJvuz7WaCrtgT7d=
+-2Fm-2FXGeZ5wYoognI-2FsOL35vqeqbG6Yr" alt=3D"" width=3D"1" height=3D"1" bor=
+der=3D"0" style=3D"height:1px !important;width:1px !important;border-width:=
+0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-righ=
+t:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bo=
+ttom:0 !important;padding-right:0 !important;padding-left:0 !important;"/><=
+/body><br><p id=3D"moe_internal_email_unsubscribe">If you'd like to unsubsc=
+ribe and stop receiving these emails <a href=3D"https://link.internshala.co=
+m/v1/emailunsubscribe?q=3Dn84sdyTg1NFMfOFWdna0Ym6A9r2K9VmdURv58_uxByw3mglgu=
+m5QGuEK-Gg7g_bkDS2DytTE.eIbyjwQalPEUDAh_2.AjnYMXb.I22e44bXlDFOEOVog4dhipK7L=
+27ByFuoCVvHUX4FLSa1Cbj1a5AJRYxnDeNB6Ds0s1UpfKk40mN.wdQdKuwwdn1GN7beZRqPTtoI=
+8-7NUkD7iLfQHLQYXJtULSjK4eHdsnexcbPLRK6Q3erhVyjh9xGll5eDX8vYYzETyNiCfEafMpC=
+A-GtS5FnsVxDvB39mumssw0Uz.oOrrxI6eT3NxCQ_3d.uYlb.MMW3yLKVH6Mpx11t8j2LbHrY4d=
+0BWtc4-tqHo5bkni4qHex0vHExjVW4W9AFsstEyhRuK8ZbarNP8vYQ9eRpTW7K7zcdrq9GhONk2=
+e2aq3DwiACM89VwXXAxbC5PJ_El64eVnIiaZczvR29AoUeeSbA">click here</a></p></htm=
+l><img src=3D"https://link.internshala.com/v1/emailopen?q=3D3.DUBWmtJyZM.xJ=
+Nf3WX.xxSBCcK4ypDnoBXFcP0.1I0Omq0mO2iD4B7-O5JTpoWwObwJjmSYlW0MJ3EQIduRNQ0bC=
+2iRm0Cr50lJku0ZbesGXHZQwko9PdqldoxncTa5tJwQWcXFDj6LYeU3VJWkOTMxVo4tYGu4sVki=
+nCW5Szqz7qdaaqe0wWn0rWtolskeKGFyTSM-VKeEDMmM5oq9u8l8kbs7FsVCtG6.0_hcEM_KjUi=
+o11iaSkSFlP1pUtup8WkoRS2NkkrfgN4oCQ-HXXLCj4SEXvGjffW2lLkek8IrqhB_nWVFDE9T86=
+ZVJvJHMgklbigoBPZoQbwH8y9DkfH3ZNves4O82g" alt=3D"" style=3D"display:none;wi=
+dth:1px;height:1px;" height=3D"1" width=3D"1">
+
+
+Delivered-To: kartikchoudhary.25iot@cambridge.edu.in
+Received: by 2002:a05:6022:9056:b0:115:7b7b:f199 with SMTP id 22csp5692245laa; Tue, 6 Oct 2026 10:40:15 -0700 (PDT)
+X-Received: by 2002:a17:903:46c8:b0:2df:7e40:6f6c with SMTP id d9443c01a7336-2e6004d67d8mr1175595ad.46.1791308415296; Tue, 06 Oct 2026 10:40:15 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1791308415; cv=none; d=google.com; s=arc-20260327; b=PrUi9qumZZfJ6fymGw3ofI0D6Ys3IlWkpYtzRtEkJAg6wNmYzEN2EzQUD8n6IZMNlm CKrCSjuJ3rv0KGEr9Rqy/0YOCMeLT2gj7CGEfzccx94aQe5i033RshsCceaUvvTX9w3p TXKs2Gsfx7FzlUUHFEEl2MZ024V0MDUxYgbramwZafk1z9VghSajz9lcagtpmhz0gT+1 RoI2Yq8inBPOVPuytlcfMgjE+ebi+7dR1jYTIi4PQRBKoD+TgkuJVnQUjregn5u9Zu// xkkKldYdWLaTYM+WEokp86kCdX6kv+wFywjsFDk75lsmFOhMvW/A7eNREXx/L7W5Qzsw kJUw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327; h=date:message-id:reply-to:errors-to:importance:from:subject:to; bh=vymFR8FNu+xo+uqXuo5KW3P1FQUvYtkbbsRP9ZKekrI=; fh=ePl2ILSMZ2LretsY+cZI9AwRte9eyczyOeFucrYeD2E=; b=Bml/uj7CKHC3v/Ix8dSasKqouGOdQHTp2acPkpmL9Zmq6wyJGdA4fmNgTbkPsy2xET S3MlG0IRIkH83exis85kNAo5xi0myDdxcfOfo6qA5TruJqMYCCcFF9DjV8oQdT1tR/14 bHdVvH95yoX87/KKB/j94TnW5A1H7pET+VpSkgA6HkfkD7Lmd7J8FZybZgYXSLoucydd dKVmzKu7J8nZ8yDMmByyydgORHVKIJ0dTJwj8jc9KVARUmjVYM8yNJaIcTLrYVN38WMG 2Y+TrbFtkjpaxRSvcl857ihvIbBZSwxnAaE5Tm+NeWLkbXV1SuR4Ho/pcJv04K4X8mjj SBYg==; dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; spf=none (google.com: security-alert@fake-example.com does not designate permitted sender hosts) smtp.mailfrom=security-alert@fake-example.com
+Return-Path: <security-alert@fake-example.com>
+Received: from emkei.cz (emkei.cz. [114.29.236.247]) by mx.google.com with ESMTPS id d9443c01a7336-2e5ff913aefsi3731305ad.169.2026.10.06.10.40.14 for <kartikchoudhary.25iot@cambridge.edu.in> (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256); Tue, 06 Oct 2026 10:40:15 -0700 (PDT)
+Received-SPF: none (google.com: security-alert@fake-example.com does not designate permitted sender hosts) client-ip=114.29.236.247;
+Authentication-Results: mx.google.com; spf=none (google.com: security-alert@fake-example.com does not designate permitted sender hosts) smtp.mailfrom=security-alert@fake-example.com
+Received: by emkei.cz (Postfix, from userid 33) id EA6283BF6; Tue,
+  6 Oct 2026 19:40:12 +0200 (CEST)
+To: kartikchoudhary.25iot@cambridge.edu.in
+Subject: 
+From: security-alert@fake-example.com
+X-Priority: 3 (Normal)
+Importance: Normal
+Errors-To: security-alert@fake-example.com
+Reply-To: security-alert@fake-example.com
+Content-Type: text/plain; charset=utf-8
+Message-Id: <20261006174012.EA6283BF6@emkei.cz>
+Date: Tue,
+  6 Oct 2026 19:40:12 +0200 (CEST)
+
+┌─────────────────────────────────────────────┐
+│        │
+│ Subject: URGENT: Verify Your Account        │
+│                                             │
+│ Your account will be suspended in 24 hours. │
+│                                             │
+│ Click here to verify your account           │
+│                                             │
+│ [Verify Account]                            │
+│                                             │
+│ Thank you                                   │
+└─────────────────────────────────────────────┘
