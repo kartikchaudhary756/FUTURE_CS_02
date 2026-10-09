@@ -65,7 +65,7 @@ However, successful SPF, DKIM and DMARC authentication does not guarantee that e
 
 ### Email Header Screenshot
 
-<img width="1140" height="872" alt="Email header analysis" src="../Evidence/Email_02_Safe/0730c925-a8af-4a7b-8a1d-3bee3297a172.png" />
+<img width="1140" alt="Email 02 header analysis" src="PASTE_YOUR_NEW_GITHUB_IMAGE_URL_HERE" />
 
 The screenshot shows the original message details and the SPF, DKIM and DMARC authentication results.
 
